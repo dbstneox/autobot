@@ -20,7 +20,7 @@ case 'text':
  // Get replyToken
  $replyToken = $event['replyToken'];
  // Reply message
- $respMessage = 'Hello, ข้ความที่คุณส่งมาคือ  '. $event['message']['text'];
+ $respMessage = 'Hello, ข้อความที่คุณส่งมาคือ  '. $event['message']['text'];
  $httpClient = new CurlHTTPClient($channel_token);
  $bot = new LINEBot($httpClient, array('channelSecret' => $channel_secret));
  $textMessageBuilder = new TextMessageBuilder($respMessage);
