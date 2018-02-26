@@ -1,2 +1,2 @@
 <?php
-echo 'MY AutoBot Git OK';
+echo 'AUTOBOT';
